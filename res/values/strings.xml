@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">触控设置</string>
+    <string name="create">开启悬浮窗口</string>
+    <string name="destroy">关闭悬浮窗口</string>
+	<string name="about">关于</string>
+    <string name="floating">触控</string>
+	<string name="volumedown">音量-</string>
+	<string name="volumeup">音量+</string>
+	<string name="channeldown">频道-</string>
+	<string name="channelup">频道+</string>
+	<string name="mute">静音</string>
+	<string name="back">退出</string>
+
+	
+</resources>

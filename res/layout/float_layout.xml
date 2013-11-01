@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        
+       <Button 
+        android:id="@+id/float_id"
+        android:layout_width="90dip"
+        android:layout_height="wrap_content"
+        android:text="@string/floating"
+        android:textSize="26dip"
+        android:layout_marginTop="3dip"
+		android:layout_marginBottom="3dip"
+        android:background="@drawable/button_state_1" />
+
+    <LinearLayout android:id="@+id/listbar"
+    android:layout_width="90dip"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >     
+    
+  	    <!--     ChannelUp  -->
+	    <Button
+	        android:id="@+id/float_channelup"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/channelup"
+			android:textSize="25dip"	
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+	        android:background="@drawable/button_state_1" />
+          	    
+	    <!--     ChannelDown  -->
+	    <Button
+	        android:id="@+id/float_channeldown"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/channeldown"
+			android:textSize="25dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+	        android:background="@drawable/button_state_1" />	    
+	    
+	    <!--     VolumeUp  -->
+	    <Button 
+	        android:id="@+id/float_volumeup"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/volumeup"
+			android:textSize="25dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+	        android:background="@drawable/button_state_1" />
+    
+        <!--     VolumeDown  -->
+	    <Button 
+	        android:id="@+id/float_volumedown"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/volumedown"
+			android:textSize="25dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+	        android:background="@drawable/button_state_1" />
+	            	    
+    	<!--     Mute  -->
+	    <Button
+	        android:id="@+id/float_mute"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/mute"  
+			android:textSize="25dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+			android:background="@drawable/button_state_1" />
+		</LinearLayout>  
+	    	    
+  
+	    
+<LinearLayout 
+    android:id="@+id/backbar"
+    android:layout_width="95dip"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >       
+   		<!--     Back  -->
+	    <Button
+	        android:id="@+id/float_back"
+	        android:layout_width="90dip"
+	        android:layout_height="wrap_content"
+	        android:text="@string/back"
+			android:textSize="24dip"
+			android:layout_marginTop="3dip"
+			android:layout_marginBottom="3dip"
+	        android:background="@drawable/button_state_1" />
+</LinearLayout>
+    
+    
+</LinearLayout>

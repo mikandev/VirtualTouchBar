@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+    
+    <Button 
+        android:id="@+id/create_id"
+        android:layout_width="240dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dip"
+        android:text="@string/create"/>
+    <Button 
+        android:id="@+id/remove_id"
+        android:layout_width="240dip"
+        android:layout_height="wrap_content"
+        android:text="@string/destroy" />
+    <Button 
+        android:id="@+id/about_id"
+        android:layout_width="240dip"
+        android:layout_height="wrap_content"
+        android:text="@string/about" />
+
+</LinearLayout>
